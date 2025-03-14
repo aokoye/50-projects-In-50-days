@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #03045e;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #caf0f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #caf0f8;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #caf0f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.screenshot {
+    display: flex;
+    max-width: 300px;
+}
+
+.screenshot img {
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.experience {
+    position: absolute;
+    margin-top: 35px;
+    max-width: 300px;
+    visibility: hidden;
+    
+}
+
+.card:hover img {
+    opacity: .3;
+    transition: 0.3s;
+}
+
+.card:hover .experience {
+    opacity: 1;
+    visibility: visible;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit; 
+}
