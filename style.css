@@ -58,7 +58,6 @@ header {
     background-color: white;
     margin: 12px;
     border-radius: 10px;
-    max-width: 300px;
 }
 
 .screenshot {
@@ -72,6 +71,19 @@ header {
     object-fit: cover;
 }
 
+.projlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.projlinks img {
+    max-width: 40px;
+    height: auto;
+}
+
 .experience {
     position: absolute;
     margin-top: 35px;
@@ -80,17 +92,7 @@ header {
     
 }
 
-.projlinks {
-    display: flex;
-    max-width: 300px;
-}
-
-.projects img {
-    max-width: 300px;
-    height: auto;
-}
-
-.card:hover img {
+.card:hover .screenshot img {
     opacity: .3;
     transition: 0.3s;
 }
