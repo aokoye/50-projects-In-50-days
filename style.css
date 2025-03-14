@@ -58,6 +58,7 @@ header {
     background-color: white;
     margin: 12px;
     border-radius: 10px;
+    max-width: 300px;
 }
 
 .screenshot {
@@ -77,6 +78,16 @@ header {
     max-width: 300px;
     visibility: hidden;
     
+}
+
+.projlinks {
+    display: flex;
+    max-width: 300px;
+}
+
+.projects img {
+    max-width: 300px;
+    height: auto;
 }
 
 .card:hover img {
