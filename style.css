@@ -63,12 +63,12 @@ header {
 
 .screenshot {
     display: flex;
-    max-width: 300px;
+    max-width: 20em;
 }
 
 .screenshot img {
-    max-width: 300px;
-    height: auto;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
